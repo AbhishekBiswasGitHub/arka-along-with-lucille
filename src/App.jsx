@@ -1,7 +1,13 @@
+import Hero from "./Hero";
+
 import "./App.css";
 
 const App = () => {
-  return <div></div>;
+  return (
+    <div id="App">
+      <Hero />
+    </div>
+  );
 };
 
 export default App;
