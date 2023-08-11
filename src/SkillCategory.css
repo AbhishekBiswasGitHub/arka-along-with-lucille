@@ -1,0 +1,50 @@
+@font-face {
+  font-family: KaushanScript;
+  src: url(./assets/fonts/KaushanScript.ttf);
+}
+
+@font-face {
+  font-family: Courgette;
+  src: url(./assets/fonts/Courgette.ttf);
+}
+
+.skill-category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+}
+
+.skill-category-name {
+  border-bottom: 3px solid #333;
+
+  font-family: KaushanScript;
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.skill-category-name > i {
+  padding-right: 1rem;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+
+  flex-grow: 1;
+
+  padding: 2rem;
+}
+
+.skill {
+  padding-bottom: 2rem;
+
+  font-family: Courgette;
+  font-size: 3rem;
+  text-transform: capitalize;
+}
