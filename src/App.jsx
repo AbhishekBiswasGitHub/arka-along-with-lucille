@@ -1,5 +1,6 @@
 import Hero from "./Hero";
 import Skills from "./Skills";
+import Live from "./Live";
 
 import "./App.css";
 
@@ -8,6 +9,7 @@ const App = () => {
     <div id="App">
       <Hero />
       <Skills />
+      <Live />
     </div>
   );
 };
