@@ -20,3 +20,27 @@
 
   list-style-type: none;
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #nav {
+    padding-right: 4rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #nav {
+    padding-right: 4rem;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+  #nav {
+    padding-right: 6rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  #nav {
+    padding-right: 6rem;
+  }
+}

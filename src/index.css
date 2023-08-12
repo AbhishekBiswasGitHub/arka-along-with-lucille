@@ -1,6 +1,19 @@
 :root {
+  --grid-gap: 3rem;
+  --padding-section: 2rem;
+  --padding-grid: 3rem 0;
+  --border-thickness-normal: 0.3rem;
+  --border-thickness-thick: 0.5rem;
+  --border-radius: 1rem;
   --color-text: #333;
   --color-background: #ccc;
+  --font-hero: PermanentMarker;
+  --font-heading: KaushanScript;
+  --font-content: Courgette;
+  --font-size-heading: 3rem;
+  --font-size-title: 2rem;
+  --font-size-content: 1.5rem;
+  --text-align-heading: left;
 }
 
 * {
@@ -15,7 +28,7 @@ html {
 
 body {
   position: relative;
-  min-width: 400px;
+  min-width: 360px;
   min-height: 100svh;
 }
 
@@ -34,4 +47,70 @@ body {
   color: var(--color-text);
 
   scroll-behavior: smooth;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  :root {
+    --padding-section: 2rem 5rem;
+    --font-size-heading: 3.5rem;
+    --font-size-title: 2.5rem;
+    --font-size-content: 2rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  :root {
+    --grid-gap: 4rem;
+    --padding-section: 2rem 8rem;
+    --padding-grid: 4rem 0;
+    --border-thickness-thick: 0.6rem;
+    --border-radius: 2rem;
+    --font-size-heading: 4rem;
+    --font-size-title: 3rem;
+    --font-size-content: 2.5rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  :root {
+    --grid-gap: 5rem;
+    --padding-section: 2rem 5rem;
+    --padding-grid: 5rem 0;
+    --border-thickness-thick: 0.6rem;
+    --border-radius: 2rem;
+    --font-size-heading: 4rem;
+    --font-size-title: 3rem;
+    --font-size-content: 2.5rem;
+    --text-align-heading: center;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+  :root {
+    --grid-gap: 5rem;
+    --padding-section: 2rem 5rem;
+    --padding-grid: 5rem 0;
+    --border-thickness-normal: 0.4rem;
+    --border-thickness-thick: 0.8rem;
+    --border-radius: 3rem;
+    --font-size-heading: 4.5rem;
+    --font-size-title: 3.5rem;
+    --font-size-content: 2.8rem;
+    --text-align-heading: center;
+  }
+}
+
+@media (min-width: 1440px) {
+  :root {
+    --grid-gap: 6rem;
+    --padding-section: 2rem 5rem;
+    --padding-grid: 6rem 0;
+    --border-thickness-normal: 0.4rem;
+    --border-thickness-thick: 0.8rem;
+    --border-radius: 3rem;
+    --font-size-heading: 5rem;
+    --font-size-title: 4rem;
+    --font-size-content: 3rem;
+    --text-align-heading: center;
+  }
 }

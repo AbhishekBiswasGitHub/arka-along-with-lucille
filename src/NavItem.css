@@ -1,5 +1,49 @@
 .nav-item {
-  padding-top: 3rem;
+  padding-top: 4rem;
 
   font-size: 4rem;
+
+  transition: transform 50ms ease-in-out;
+}
+
+.nav-item:hover {
+  transform: scale(1.1);
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .nav-item {
+    padding-top: 2rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .nav-item {
+    padding-top: 5rem;
+
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .nav-item {
+    padding-top: 5rem;
+
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1439px) {
+  .nav-item {
+    padding-top: 6rem;
+
+    font-size: 6rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .nav-item {
+    padding-top: 6rem;
+
+    font-size: 6rem;
+  }
 }

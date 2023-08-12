@@ -7,10 +7,11 @@
 }
 
 .skill-category-name {
-  border-bottom: 3px solid var(--color-text);
+  border-bottom: var(--border-thickness-normal)
+    solid var(--color-text);
 
-  font-family: KaushanScript;
-  font-size: 2rem;
+  font-family: var(--font-heading);
+  font-size: var(--font-size-title);
   text-align: center;
   text-transform: uppercase;
 }
@@ -26,13 +27,13 @@
   justify-content: space-evenly;
   list-style-type: none;
 
-  padding: 2rem;
+  padding-top: 2rem;
 }
 
 .skill {
   padding-bottom: 1rem;
 
-  font-family: Courgette;
-  font-size: 2rem;
+  font-family: var(--font-content);
+  font-size: var(--font-size-content);
   text-transform: capitalize;
 }

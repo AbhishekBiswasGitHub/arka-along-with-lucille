@@ -6,15 +6,15 @@
 
   width: 100%;
 
-  padding: 2rem 5rem;
+  padding: var(--padding-section);
 }
 
 #skills-heading {
   width: 100%;
 
-  font-family: KaushanScript;
-  font-size: 3rem;
-  text-align: left;
+  font-family: var(--font-heading);
+  font-size: var(--font-size-heading);
+  text-align: var(--text-align-heading);
   text-transform: uppercase;
 }
 
@@ -25,9 +25,15 @@
 #skill-categories {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 5rem;
+  gap: var(--grid-gap);
 
   width: 100%;
 
-  padding-top: 5rem;
+  padding: var(--padding-grid);
+}
+
+@media (min-width: 992px) {
+  #skill-categories {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

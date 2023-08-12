@@ -7,9 +7,11 @@ const NavItem = ({ icon, color, link }) => {
     <li className="nav-item">
       <a
         href={link}
+        target="_blank"
         style={{
           color: color,
         }}
+        rel="noreferrer"
       >
         <i className={`fa-brands fa-${icon}`}></i>
       </a>

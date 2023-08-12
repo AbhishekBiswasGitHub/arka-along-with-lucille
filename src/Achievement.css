@@ -8,15 +8,16 @@
 
   padding: 2rem;
 
-  border: 3px solid var(--color-text);
-  border-radius: 1rem;
+  border: var(--border-thickness-normal) solid
+    var(--color-text);
+  border-radius: var(--border-radius);
 }
 
 .achievement-title {
   width: 100%;
 
-  font-family: KaushanScript;
-  font-size: 3rem;
+  font-family: var(--font-heading);
+  font-size: var(--font-size-title);
 }
 
 .achievement-role {
@@ -24,10 +25,11 @@
 
   padding-bottom: 1rem;
 
-  border-bottom: 3px solid var(--color-text);
+  border-bottom: var(--border-thickness-normal)
+    solid var(--color-text);
 
-  font-family: KaushanScript;
-  font-size: 2rem;
+  font-family: var(--font-heading);
+  font-size: var(--font-size-content);
 }
 
 .achievement-works {

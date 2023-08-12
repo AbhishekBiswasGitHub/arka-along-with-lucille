@@ -3,8 +3,8 @@
 
   color: inherit;
 
-  font-family: Courgette;
-  font-size: 2rem;
+  font-family: var(--font-content);
+  font-size: var(--font-size-content);
   text-decoration: none;
 }
 

@@ -6,15 +6,15 @@
 
   width: 100%;
 
-  padding: 2rem 5rem;
+  padding: var(--padding-section);
 }
 
 #live-heading {
   width: 100%;
 
-  font-family: KaushanScript;
-  font-size: 3rem;
-  text-align: left;
+  font-family: var(--font-heading);
+  font-size: var(--font-size-heading);
+  text-align: var(--text-align-heading);
   text-transform: uppercase;
 }
 
@@ -25,9 +25,21 @@
 #performances {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 5rem;
+  gap: var(--grid-gap);
 
   width: 100%;
 
-  padding: 5rem 0;
+  padding: var(--padding-grid);
+}
+
+@media (min-width: 768px) {
+  #performances {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  #performances {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

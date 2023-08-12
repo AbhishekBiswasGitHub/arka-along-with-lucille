@@ -4,5 +4,7 @@
   width: 100%;
   height: 100svh;
 
+  padding: var(--padding-section);
+
   backdrop-filter: blur(2rem);
 }
