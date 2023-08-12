@@ -10,14 +10,16 @@
   justify-content: center;
 
   width: 100%;
+
+  padding: 2rem 5rem;
 }
 
 #live-heading {
   width: 100%;
 
   font-family: KaushanScript;
-  font-size: 6rem;
-  text-align: center;
+  font-size: 3rem;
+  text-align: left;
   text-transform: uppercase;
 }
 
@@ -27,10 +29,10 @@
 
 #performances {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr;
   gap: 5rem;
 
   width: 100%;
 
-  padding: 5rem 10rem;
+  padding: 5rem 0;
 }

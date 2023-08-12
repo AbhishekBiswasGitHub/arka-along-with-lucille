@@ -10,7 +10,7 @@ const Live = () => {
         to: "2015",
       },
       artist: {
-        name: "LOSERZ",
+        name: "Loserz",
         details: "Rap Rock Band",
       },
     },

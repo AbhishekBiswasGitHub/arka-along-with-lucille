@@ -4,11 +4,12 @@
 }
 
 .contact {
+  width: 100%;
+
   color: inherit;
 
   font-family: Courgette;
-  font-size: 3rem;
-  text-align: center;
+  font-size: 2rem;
   text-decoration: none;
 }
 

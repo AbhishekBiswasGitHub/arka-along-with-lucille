@@ -20,13 +20,13 @@
   border-bottom: 3px solid #333;
 
   font-family: KaushanScript;
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
   text-transform: uppercase;
 }
 
 .skill-category-name > i {
-  padding-right: 1rem;
+  padding-right: 0.5rem;
 }
 
 .skills {
@@ -36,15 +36,13 @@
   justify-content: space-evenly;
   list-style-type: none;
 
-  flex-grow: 1;
-
   padding: 2rem;
 }
 
 .skill {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 
   font-family: Courgette;
-  font-size: 3rem;
+  font-size: 2rem;
   text-transform: capitalize;
 }
