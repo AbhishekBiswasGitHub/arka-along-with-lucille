@@ -1,0 +1,36 @@
+@font-face {
+  font-family: KaushanScript;
+  src: url(./assets/fonts/KaushanScript.ttf);
+}
+
+#contacts-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+}
+
+#contacts-heading {
+  width: 100%;
+
+  font-family: KaushanScript;
+  font-size: 6rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#contacts-heading > i {
+  padding-right: 1rem;
+}
+
+#contacts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+
+  width: 100%;
+
+  padding: 5rem 10rem;
+}

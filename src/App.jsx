@@ -4,6 +4,7 @@ import Live from "./Live";
 import Achievements from "./Achievements";
 
 import "./App.css";
+import Contacts from "./Contacts";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Skills />
       <Live />
       <Achievements />
+      <Contacts />
     </div>
   );
 };

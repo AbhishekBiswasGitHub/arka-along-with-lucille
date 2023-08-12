@@ -1,0 +1,17 @@
+@font-face {
+  font-family: Courgette;
+  src: url(./assets/fonts/Courgette.ttf);
+}
+
+.contact {
+  color: inherit;
+
+  font-family: Courgette;
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.contact > i {
+  padding-right: 1rem;
+}
