@@ -9,12 +9,16 @@ const Performance = ({
 }) => {
   return (
     <div className="performance">
-      <div className="role">{role} </div>
-      <div className="period">
+      <div className="performance-role">
+        {role}{" "}
+      </div>
+      <div className="performance-period">
         {period.from} - {period.to}
       </div>
-      <div className="artist">{artist.name}</div>
-      <div className="artist-details">
+      <div className="performance-artist">
+        {artist.name}
+      </div>
+      <div className="performance-artist-details">
         {artist.details}
       </div>
     </div>

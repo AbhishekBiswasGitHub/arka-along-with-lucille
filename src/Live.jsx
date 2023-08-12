@@ -29,7 +29,7 @@ const Live = () => {
       role: "bass guitarist",
       period: {
         from: "2015",
-        to: "current",
+        to: "present",
       },
       artist: {
         name: "Crazy Petals",
@@ -51,7 +51,7 @@ const Live = () => {
       role: "bass guitarist",
       period: {
         from: "2018",
-        to: "current",
+        to: "present",
       },
       artist: {
         name: "Anwesha Dutta",
@@ -62,7 +62,7 @@ const Live = () => {
       role: "bass guitarist",
       period: {
         from: "2018",
-        to: "current",
+        to: "present",
       },
       artist: {
         name: "Debjani Acharya",
@@ -73,7 +73,7 @@ const Live = () => {
       role: "lead guitarist",
       period: {
         from: "2018",
-        to: "current",
+        to: "present",
       },
       artist: {
         name: "Riddhiman Biswas",
