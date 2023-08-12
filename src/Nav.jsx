@@ -7,17 +7,17 @@ const Nav = () => {
     {
       icon: "instagram",
       color: "#c13584",
-      link: "#",
+      link: "https://instagram.com/arka_along_with_lucille",
     },
     {
       icon: "facebook",
       color: "#4267b2",
-      link: "#",
+      link: "https://facebook.com/ArkaalongwithLucille",
     },
     {
       icon: "youtube",
       color: "#ff0000",
-      link: "#",
+      link: "https://youtube.com/@ArkaalongwithLucille",
     },
   ];
   return (

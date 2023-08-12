@@ -1,3 +1,8 @@
+:root {
+  --color-text: #333;
+  --color-background: #ccc;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -25,8 +30,8 @@ body {
 
   width: 100%;
 
-  background-color: #ccc;
-  color: #333;
+  background-color: var(--color-background);
+  color: var(--color-text);
 
   scroll-behavior: smooth;
 }

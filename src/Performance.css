@@ -1,17 +1,7 @@
-@font-face {
-  font-family: KaushanScript;
-  src: url(./assets/fonts/KaushanScript.ttf);
-}
-
-@font-face {
-  font-family: Courgette;
-  src: url(./assets/fonts/Courgette.ttf);
-}
-
 .performance {
   padding-left: 2rem;
 
-  border-left: 5px solid #333;
+  border-left: 5px solid var(--color-text);
 }
 
 .performance-role {

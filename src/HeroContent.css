@@ -1,18 +1,3 @@
-@font-face {
-  font-family: PermanentMarker;
-  src: url(./assets/fonts/PermanentMarker.ttf);
-}
-
-@font-face {
-  font-family: KaushanScript;
-  src: url(./assets/fonts/KaushanScript.ttf);
-}
-
-@font-face {
-  font-family: Courgette;
-  src: url(./assets/fonts/Courgette.ttf);
-}
-
 #hero-content {
   display: flex;
   flex-direction: column;
